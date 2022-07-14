@@ -4,7 +4,6 @@ import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import LSHook from '../components/LSExample';
 import {getLocalStorageValue} from '../hooks/useLocalStorage'
-import InputValue from '../components/InputValue';
 
 export default function Home() {
   

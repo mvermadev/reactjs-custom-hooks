@@ -14,10 +14,11 @@ export default function LSExample() {
 
   return (
     <div>
-        <form className='form-vertical'>
+        <form className='form-horizontal'>
             <div>
-                <label className='control-label'>Task</label>
-                <input type='text' value={task} onChange={(e)=>useTask(e.target.value)} />
+            <label className='form-label'>Data</label>
+            <input
+            className='form-control' type='text' value={task} onChange={(e)=>useTask(e.target.value)} />
             </div>
             <div>
                 <p>
